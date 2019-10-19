@@ -1,0 +1,48 @@
+/* CodeCillop Splendid Popup */
+
+/* http://www.codecillop.com/muhtesem-popup/ */
+
+/** Tüm hakları saklıdır, kişisel kullanımlar için ücretsizdir **/
+/** Free for personal use **/
+
+body.sabit { overflow: hidden }
+.muhtesempoap { position: fixed; z-index: 1999; left: 0; top: 101%; right: 0; height: 0; overflow: hidden }
+.muhtesempoap.etkin { overflow: visible }
+.muhtesempoap.mutlak { position: absolute }
+.muhtesempoap .sayfaG { background: #FFFFFF; padding: 20px; box-sizing: border-box; position: relative; -webkit-box-shadow: 0 0 24px 0 rgba(0,0,0,.5); box-shadow: 0 0 24px 0 rgba(0,0,0,.5); opacity: 0; margin: 0 auto }
+.muhtesempoap .sayfaG.dib {display: inline-block !important}
+.muhtesempoap.etkin .sayfaG { opacity: 1 }
+.muhtesempoap .sayfaG, .muhtesempoap.iframe.yukseklikvar .sayfaG { max-width: 960px }
+.muhtesempoap .sayfaG img { max-width: 100%; height: auto }
+.muhtesempoap .kapatcik { display: inline-block; position: absolute; right: 5px; top: 5px; width: 24px; height: 24px; line-height: 24px; text-align: center; background: rgb(223,0,3); color: #FFFFFF; z-index: 15; border: 1px solid #FFFFFF; }
+.muhtesempoap .kapatcik:hover { background: #FFFFFF; color: rgb(223,0,3) }
+.muhtesempoap.iframe .sayfaG { max-width: none; margin: 0 18px }
+.muhtesempoap.iframe.yukseklikvar .sayfaG { margin-left: auto; margin-right: auto }
+.muhtesempoap a.onceki, .muhtesempoap a.sonraki { position: absolute; z-index: 20; width: 32px; height: 32px; border-radius: 16px; background: #FFFFFF; text-align: left; text-indent: -999em; left: -16px; top: 50%; margin-top: -16px }
+.muhtesempoap a.sonraki { left: auto; right: -12px }
+.muhtesempoap a.onceki:hover, .muhtesempoap a.sonraki:hover { background: #0054a4 }
+.muhtesempoap a.onceki:before, .muhtesempoap a.sonraki:before { content: ""; display: inline-block; width: 0; height: 0; border-style: solid; border-width: 8px 10px 8px 0; border-color: transparent #0054a4 transparent transparent; position: absolute; z-index: 1; left: 50%; top: 50%; margin: -8px 0 0 -7.5px }
+.muhtesempoap a.sonraki:before { border-width: 8px 0 8px 10px; border-color: transparent transparent transparent #0054a4; margin: -8px 0 0 -4.5px }
+.muhtesempoap a.onceki:hover:before { border-color: transparent #ffffff transparent transparent }
+.muhtesempoap a.sonraki:hover:before { border-color: transparent transparent transparent #ffffff }
+.zemincik { background: rgba(76,76,76,.7); position: fixed; z-index: 1998; left: 0; top: 0; right: 0; bottom: 0 }
+
+.muhtesempoap .sayfaG.dib {display:inline-block !important; width:auto !important}
+.muhtesempoap.ortala {text-align:center;font-size:0}
+.muhtesempoap.ortala > div {font-size:inherit}
+.muhtesempoap.ortala .sayfaG {text-align:left}
+
+/* işlemde -- Processing **/
+
+.islemde {position:absolute; z-index:10000; left:0; top:0; right:0; bottom:0; background:rgba(29,85,86,.7);}
+.tablo {display:table; width:100%; height:100%}
+.tablo .hucre {display:table-cell; width:100%; height:100%; text-align:center; vertical-align:middle}
+body > .islemde {position:fixed}
+.islemde .tablo .hucre em {display:inline-block; background:transparent url(/wp-content/plugins/codecillop-splendid-popup/cillop-yukle.gif)  center center no-repeat; width:150px; height:150px; text-align:left; text-indent:-999em;} 
+
+@media only screen and (max-width: 769px) {
+	.muhtesempoap {max-width:none !important; margin-left:20px; margin-right:20px}
+}
+@media only screen and (max-width: 481px) {
+	.muhtesempoap {margin-left:10px; margin-right:10px}
+}

@@ -1,0 +1,896 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+LastikHaus
+</name>
+</assembly>
+<members>
+<member name="T:LastikHaus.My.MyWebExtension">
+ <summary>
+ My Namespace for Web projelerinde kullanılabilen özellikleri tanımlamak için kullanılan modül.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:LastikHaus.My.MyWebExtension.Computer">
+ <summary>
+ Ana bilgisayarla ilgili bilgiler döndürür.
+ </summary>
+</member>
+<member name="P:LastikHaus.My.MyWebExtension.User">
+ <summary>
+ Geçerli Web kullanıcısıyla ilgili bilgiler döndürür.
+ </summary>
+</member>
+<member name="P:LastikHaus.My.MyWebExtension.Request">
+ <summary>
+ Request nesnesi döndürür.
+ </summary>
+</member>
+<member name="P:LastikHaus.My.MyWebExtension.Response">
+ <summary>
+ Response nesnesi döndürür.
+ </summary>
+</member>
+<member name="P:LastikHaus.My.MyWebExtension.Log">
+ <summary>
+ Asp günlüğü nesnesi döndürür.
+ </summary>
+</member>
+<member name="F:LastikHaus.Akuler._form1">
+<summary>
+form1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Akuler._TxtAra">
+<summary>
+TxtAra denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Akuler._Btn_Urun_Ara">
+<summary>
+Btn_Urun_Ara denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Akuler._Repeater1">
+<summary>
+Repeater1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Jantlar._form1">
+<summary>
+form1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Jantlar._TxtAra">
+<summary>
+TxtAra denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Jantlar._Btn_Urun_Ara">
+<summary>
+Btn_Urun_Ara denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Jantlar._Repeater1">
+<summary>
+Repeater1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Kampanyalar._form1">
+<summary>
+form1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Kampanyalar._Div_Duyuru">
+<summary>
+Div_Duyuru denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Kampanyalar._Btn_Duyuru">
+<summary>
+Btn_Duyuru denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Kampanyalar._TxtAra">
+<summary>
+TxtAra denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Kampanyalar._Btn_Urun_Ara">
+<summary>
+Btn_Urun_Ara denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Kampanyalar._Repeater1">
+<summary>
+Repeater1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Lastikler._form1">
+<summary>
+form1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Lastikler._Div_Duyuru">
+<summary>
+Div_Duyuru denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Lastikler._Btn_Duyuru">
+<summary>
+Btn_Duyuru denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Lastikler._TxtAra">
+<summary>
+TxtAra denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Lastikler._Btn_Urun_Ara">
+<summary>
+Btn_Urun_Ara denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Lastikler._Repeater1">
+<summary>
+Repeater1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Urun_Ekle._form1">
+<summary>
+form1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Urun_Ekle._BtnYonetimRapor">
+<summary>
+BtnYonetimRapor denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Urun_Ekle._TxtAra">
+<summary>
+TxtAra denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Urun_Ekle._Btn_Urun_Ara">
+<summary>
+Btn_Urun_Ara denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Urun_Ekle._Btn_Urun_Ekle">
+<summary>
+Btn_Urun_Ekle denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Urun_Ekle._Btn_iptal">
+<summary>
+Btn_iptal denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Urun_Ekle._LBL_URUN_ID">
+<summary>
+LBL_URUN_ID denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Urun_Ekle._Label1">
+<summary>
+Label1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Urun_Ekle._LblDosyaAdi">
+<summary>
+LblDosyaAdi denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Urun_Ekle._Beyanname_id">
+<summary>
+Beyanname_id denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Urun_Ekle._Div_Urunler">
+<summary>
+Div_Urunler denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Urun_Ekle._GridView1">
+<summary>
+GridView1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Urun_Ekle._Div_Urun_Ekle">
+<summary>
+Div_Urun_Ekle denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Urun_Ekle._TXT_URUN_ADI">
+<summary>
+TXT_URUN_ADI denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Urun_Ekle._TXT_URUN_DETAY">
+<summary>
+TXT_URUN_DETAY denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Urun_Ekle._TXT_URUN_FIYAT">
+<summary>
+TXT_URUN_FIYAT denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Urun_Ekle._TXT_URUN_BIRIM">
+<summary>
+TXT_URUN_BIRIM denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Urun_Ekle._DropDownList1">
+<summary>
+DropDownList1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Urun_Ekle._FileUpload1">
+<summary>
+FileUpload1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Urun_Ekle._Btn_Urun_Yukle_Kaydet">
+<summary>
+Btn_Urun_Yukle_Kaydet denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.Urun_Ekle._Btn_Urun_Kaydet_Iptal">
+<summary>
+Btn_Urun_Kaydet_Iptal denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_MYSQL._form1">
+<summary>
+form1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_MYSQL._BtnYonetimRapor">
+<summary>
+BtnYonetimRapor denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_MYSQL._TxtAra">
+<summary>
+TxtAra denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_MYSQL._Btn_Ara">
+<summary>
+Btn_Ara denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_MYSQL._Btn_Urun_Ekle">
+<summary>
+Btn_Urun_Ekle denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_MYSQL._Btn_iptal">
+<summary>
+Btn_iptal denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_MYSQL._LBL_URUN_ID">
+<summary>
+LBL_URUN_ID denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_MYSQL._Label1">
+<summary>
+Label1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_MYSQL._LblDosyaAdi">
+<summary>
+LblDosyaAdi denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_MYSQL._Beyanname_id">
+<summary>
+Beyanname_id denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_MYSQL._Div_Urunler">
+<summary>
+Div_Urunler denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_MYSQL._GridView1">
+<summary>
+GridView1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_MYSQL._Div_Urun_Ekle">
+<summary>
+Div_Urun_Ekle denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_MYSQL._DropDownList4">
+<summary>
+DropDownList4 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_MYSQL._rfvType">
+<summary>
+rfvType denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_MYSQL._TXT_URUN_ADI">
+<summary>
+TXT_URUN_ADI denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_MYSQL._TXT_URUN_DETAY">
+<summary>
+TXT_URUN_DETAY denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_MYSQL._TXT_URUN_BIRIM">
+<summary>
+TXT_URUN_BIRIM denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_MYSQL._TXT_URUN_FIYAT">
+<summary>
+TXT_URUN_FIYAT denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_MYSQL._DropDownList1">
+<summary>
+DropDownList1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_MYSQL._DropDownList2">
+<summary>
+DropDownList2 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_MYSQL._DropDownList3">
+<summary>
+DropDownList3 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_MYSQL._CHC_KAMPANYA">
+<summary>
+CHC_KAMPANYA denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_MYSQL._FileUpload1">
+<summary>
+FileUpload1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_MYSQL._Btn_Urun_Yukle_Kaydet">
+<summary>
+Btn_Urun_Yukle_Kaydet denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_MYSQL._Btn_Urun_Yukle_Guncelle">
+<summary>
+Btn_Urun_Yukle_Guncelle denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_MYSQL._Image1">
+<summary>
+Image1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_SQL._form1">
+<summary>
+form1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_SQL._BtnYonetimRapor">
+<summary>
+BtnYonetimRapor denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_SQL._TxtAra">
+<summary>
+TxtAra denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_SQL._Btn_Ara">
+<summary>
+Btn_Ara denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_SQL._Btn_Urun_Ekle">
+<summary>
+Btn_Urun_Ekle denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_SQL._Btn_iptal">
+<summary>
+Btn_iptal denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_SQL._LBL_URUN_ID">
+<summary>
+LBL_URUN_ID denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_SQL._Label1">
+<summary>
+Label1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_SQL._LblDosyaAdi">
+<summary>
+LblDosyaAdi denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_SQL._Beyanname_id">
+<summary>
+Beyanname_id denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_SQL._Div_Urunler">
+<summary>
+Div_Urunler denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_SQL._GridView1">
+<summary>
+GridView1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_SQL._Div_Urun_Ekle">
+<summary>
+Div_Urun_Ekle denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_SQL._DropDownList4">
+<summary>
+DropDownList4 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_SQL._rfvType">
+<summary>
+rfvType denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_SQL._TXT_URUN_ADI">
+<summary>
+TXT_URUN_ADI denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_SQL._TXT_URUN_DETAY">
+<summary>
+TXT_URUN_DETAY denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_SQL._TXT_URUN_BIRIM">
+<summary>
+TXT_URUN_BIRIM denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_SQL._TXT_URUN_FIYAT">
+<summary>
+TXT_URUN_FIYAT denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_SQL._DropDownList1">
+<summary>
+DropDownList1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_SQL._DropDownList2">
+<summary>
+DropDownList2 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_SQL._DropDownList3">
+<summary>
+DropDownList3 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_SQL._CHC_KAMPANYA">
+<summary>
+CHC_KAMPANYA denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_SQL._FileUpload1">
+<summary>
+FileUpload1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_SQL._Btn_Urun_Yukle_Kaydet">
+<summary>
+Btn_Urun_Yukle_Kaydet denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_SQL._Btn_Urun_Yukle_Guncelle">
+<summary>
+Btn_Urun_Yukle_Guncelle denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:LastikHaus.URUN_EKLE_SQL._Image1">
+<summary>
+Image1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+</members>
+</doc>
